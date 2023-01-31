@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator typegraphql {
+  provider        = "typegraphql-prisma"
+  output          = "./generated/type-graphql"
+  simpleResolvers = true
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Movie {
+  id          String @id @default(uuid())
+  title       String
+  description String
+  director    String
+  year        Int
+
+  @@map("movies")
+}

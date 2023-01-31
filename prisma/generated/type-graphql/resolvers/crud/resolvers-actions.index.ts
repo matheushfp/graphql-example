@@ -1,0 +1,14 @@
+export { AggregateMovieResolver } from "./Movie/AggregateMovieResolver";
+export { CreateManyMovieResolver } from "./Movie/CreateManyMovieResolver";
+export { CreateOneMovieResolver } from "./Movie/CreateOneMovieResolver";
+export { DeleteManyMovieResolver } from "./Movie/DeleteManyMovieResolver";
+export { DeleteOneMovieResolver } from "./Movie/DeleteOneMovieResolver";
+export { FindFirstMovieResolver } from "./Movie/FindFirstMovieResolver";
+export { FindFirstMovieOrThrowResolver } from "./Movie/FindFirstMovieOrThrowResolver";
+export { FindManyMovieResolver } from "./Movie/FindManyMovieResolver";
+export { FindUniqueMovieResolver } from "./Movie/FindUniqueMovieResolver";
+export { FindUniqueMovieOrThrowResolver } from "./Movie/FindUniqueMovieOrThrowResolver";
+export { GroupByMovieResolver } from "./Movie/GroupByMovieResolver";
+export { UpdateManyMovieResolver } from "./Movie/UpdateManyMovieResolver";
+export { UpdateOneMovieResolver } from "./Movie/UpdateOneMovieResolver";
+export { UpsertOneMovieResolver } from "./Movie/UpsertOneMovieResolver";
